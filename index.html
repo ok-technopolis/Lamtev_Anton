@@ -2,58 +2,65 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/base/input/input.css">
+    <link rel="stylesheet" href="styles/base/button/button.css">
+    <link rel="stylesheet" href="styles/todos/todos-body/todos-body.css">
+    <link rel="stylesheet" href="styles/todos/todos-header/todos-header.css">
+    <link rel="stylesheet" href="styles/todos/todos-title/todos-title.css">
+    <link rel="stylesheet" href="styles/todos/todos-main/todos-main.css">
+    <link rel="stylesheet" href="styles/todos/todos-add/todos-add.css">
     <title>todos</title>
 </head>
-<body>
+<body class="todos-body">
 <div class="todos-header">
     <h1 class="todos-title">todos</h1>
 </div>
 <div class="todos-main">
     <div class="todos-add">
-        <button class="todo-add_select-all"
+        <button class="button todos-add_select-all"
                 aria-label="Отметить все как выполненные">
         </button>
-        <input class="todo-add_input" type="text" placeholder="What needs to be done?"
-               aria-label="Поле добавления todo"/>
+        <input type="text" class="input-text todos-add_input" placeholder="What needs to be done?" checked="checked"
+               aria-label="Поле добавления todo"/><label></label>
     </div>
     <div class="todos-list">
-        <div class="todo-item">
-            <textarea class="todo-item_text">
+        <div class="todos-item">
+            <textarea class="todos-item_text">
                 HTML
             </textarea>
-            <input type="checkbox" class="todo-item_uncompleted"
+            <input type="checkbox" class="todos-item_uncompleted"
                    aria-label="Отметить как выполненное"/>
-            <button class="todo-item_remove"
+            <button class="todos-item_remove"
                     aria-label="Удалить todo">
             </button>
         </div>
-        <div class="todo-item __ready">
-            <textarea class="todo-item_text">
+        <div class="todos-item __ready">
+            <textarea class="todos-item_text">
                 CSS
             </textarea>
-            <input type="checkbox" checked="checked" class="todo-item_completed"
+            <input type="checkbox" checked="checked" class="todos-item_completed"
                    aria-label="Отметить как невыполненное"/>
-            <button class="todo-item_remove"
+            <button class="todos-item_remove"
                     aria-label="Удалить todo">
             </button>
         </div>
-        <div class="todo-item">
-            <textarea class="todo-item_text">
+        <div class="todos-item">
+            <textarea class="todos-item_text">
                 JS
             </textarea>
-            <input type="checkbox" class="todo-item_uncompleted"
+            <input type="checkbox" class="todos-item_uncompleted"
                    aria-label="Отметить как выполненное"/>
-            <button class="todo-item_remove"
+            <button class="todos-item_remove"
                     aria-label="Удалить todo">
             </button>
         </div>
-        <div class="todo-item">
-            <textarea class="todo-item_text">
+        <div class="todos-item">
+            <textarea class="todos-item_text">
                 JS tools
             </textarea>
-            <input type="checkbox" class="todo-item_uncompleted"
+            <input type="checkbox" class="todos-item_uncompleted"
                    aria-label="Отметить как выполненное"/>
-            <button class="todo-item_remove"
+            <button class="todos-item_remove"
                     aria-label="Удалить todo">
             </button>
         </div>

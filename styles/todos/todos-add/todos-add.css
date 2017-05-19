@@ -1,0 +1,40 @@
+.todos-add {
+    height: 62px;
+    border-bottom: solid 1px #e6e6e6;
+}
+
+.todos-add_select-all {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin: 18px;
+    background: url('../../../images/select-all.png') no-repeat 0 10px;
+    padding: 0;
+}
+
+.todos-add_input {
+    float: right;
+    margin-top: 15px;
+    width: 480px;
+    margin-right: 20px;
+}
+
+.todos-add_input::-webkit-input-placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+.todos-add_input:-ms-input-placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+.todos-add_input::-moz-placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+.todos-add_input:-moz-placeholder {
+    color: #ccc;
+    font-style: italic;
+}
