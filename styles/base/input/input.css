@@ -28,3 +28,14 @@
     height: 100%;
     border-radius: 50%;
 }
+
+
+.input-checkbox_target ~ .input-checkbox_visual {
+    background: none;
+    border: solid 1px #ccc;
+}
+
+.input-checkbox_target:checked ~ .input-checkbox_visual {
+    background: url('../../../images/completed.png') center no-repeat;
+    border: solid 1px #5dc2af;
+}
