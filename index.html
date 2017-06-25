@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="styles/todos/todos-add/todos-add.css">
     <link rel="stylesheet" href="styles/todos/todos-list/todos-list.css">
     <link rel="stylesheet" href="styles/todos/todos-item/todos-item.css">
+    <link rel="stylesheet" href="styles/todos/todos-bottom/todos-bottom.css">
+    <link rel="stylesheet" href="styles/todos/todos-bottom/todos-actions-bar.css">
+    <link rel="stylesheet" href="styles/todos/todos-bottom/todos-filters.css">
     <title>todos</title>
 </head>
 <body class="todos-body">
@@ -90,18 +93,18 @@
     <div class="todos-actions-bar">
         <div class="todos-actions-bar_counter"
              aria-label="Количество не сделанных todo">
-            n todos
+            3 items left
         </div>
         <div class="todos-filters">
             <button class="todos-filter __active" data-filter="all"
                     aria-label="Фильтр: показать все">
                 All
             </button>
-            <button class="todos-filter" data-filter="uncompleted"
+            <button class="todos-filters" data-filter="uncompleted"
                     aria-label="Фильтр: показать невыполненные">
                 Uncompleted
             </button>
-            <button class="todos-filter" data-filter="completed"
+            <button class="todos-filters" data-filter="completed"
                     aria-label="Фильтр: показать выполненные">
                 Completed
             </button>
@@ -109,6 +112,10 @@
         <button class="todos-actions-bar_clear-completed">
             Clear completed
         </button>
+    </div>
+    <div class="todos-bottom">
+        <div class="todos-bottom-shadow todos-bottom-shadow-first"></div>
+        <div class="todos-bottom-shadow todos-bottom-shadow-second"></div>
     </div>
 </div>
 </body>

@@ -1,0 +1,29 @@
+.todos-actions-bar {
+    height: 39px;
+    border-top: solid 5px #e6e6e6;
+}
+
+.todos-actions-bar_counter {
+    margin: 12px;
+    color: #888;
+    font-size: 14px;
+    float: left;
+    display: inline-block;
+}
+
+.todos-actions-bar_clear-completed {
+    float: right;
+}
+
+.todos-actions-bar_clear-completed {
+    margin: 12px 8px;
+    padding: 0;
+    font-size: 14px;
+    color: #888;
+}
+
+.todos-actions-bar:after {
+    content: '';
+    display: block;
+    clear: both;
+}
